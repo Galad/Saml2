@@ -11,11 +11,11 @@ if ("$clean" -eq "")
 
 $master = $status | select-string "On branch master"
 
-if ("$master" -eq "")
-{
-  echo "Releases are only allowed from the master branch."
-  exit
-}
+# if ("$master" -eq "")
+# {
+  # echo "Releases are only allowed from the master branch."
+  # exit
+# }
 
 pushd ..
 del Sustainsys.Saml2\bin\Release\*.dll
