@@ -17,7 +17,7 @@ $ErrorActionPreference = "Stop"
   # exit
 # }
 
-pushd ..
+# pushd ..
 # del Sustainsys.Saml2\bin\Release\*.dll
 # del Sustainsys.Saml2.Mvc\bin\Release\*.dll
 # del Sustainsys.Saml2.Owin\bin\Release\*.dll
