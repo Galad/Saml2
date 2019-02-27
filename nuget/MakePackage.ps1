@@ -18,11 +18,11 @@ $master = $status | select-string "On branch master"
 # }
 
 pushd ..
-del Sustainsys.Saml2\bin\Release\*.dll
-del Sustainsys.Saml2.Mvc\bin\Release\*.dll
-del Sustainsys.Saml2.Owin\bin\Release\*.dll
-del Sustainsys.Saml2.HttpModule\bin\Release\*.dll
-del Sustainsys.Saml2.AspNetCore2\bin\Release\*.dll
+# del Sustainsys.Saml2\bin\Release\*.dll
+# del Sustainsys.Saml2.Mvc\bin\Release\*.dll
+# del Sustainsys.Saml2.Owin\bin\Release\*.dll
+# del Sustainsys.Saml2.HttpModule\bin\Release\*.dll
+# del Sustainsys.Saml2.AspNetCore2\bin\Release\*.dll
 
 echo "Creating nuspec files..."
 
