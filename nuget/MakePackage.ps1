@@ -1,15 +1,15 @@
 $ErrorActionPreference = "Stop"
 
-$status = (git status)
-$clean = $status| select-string "working tree clean"
+# $status = (git status)
+# $clean = $status| select-string "working tree clean"
 
-if ("$clean" -eq "")
-{
-  echo "Working copy is not clean. Cannot proceed."
-  exit
-}
+# if ("$clean" -eq "")
+# {
+  # echo "Working copy is not clean. Cannot proceed."
+  # exit
+# }
 
-$master = $status | select-string "On branch master"
+# $master = $status | select-string "On branch master"
 
 # if ("$master" -eq "")
 # {
